@@ -1,0 +1,16 @@
+MON RYTHME SLEEVE 2.0 - INSTALLATION RAPIDE
+
+1. Garde ton appli V1 sur le telephone, ne la supprime pas.
+2. Extrais ce ZIP (il ne faut pas envoyer le ZIP directement dans le depot).
+3. Cree sur GitHub un NOUVEAU depot : MonRythmeSleeve-V2.
+4. Importe a la racine les contenus extraits : .github, app,
+   build.gradle.kts, settings.gradle.kts, gradle.properties et README.md.
+   Active l'affichage des dossiers caches pour voir .github.
+5. Sur GitHub, onglet Actions : lance le workflow
+   "Construire Mon Rythme Sleeve V2 APK".
+6. Apres le succes, telecharge l'Artifact "MonRythmeSleeve-V2-Beta-APK".
+7. Decompresse cet artifact et installe app-debug.apk.
+8. Regle ton planning et active/désactive les alertes de test.
+
+La beta s'installe a cote de la V1 avec des donnees independantes.
+Pour les explications et precautions, ouvre README.md.
